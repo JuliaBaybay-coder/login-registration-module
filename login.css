@@ -1,0 +1,64 @@
+*{
+    padding: 0px;
+    margin: 0px;
+    font-family: 'Poppins', sans-serif;
+}
+body{
+    background-color: #171b5a;
+}
+@media only screen and (max-width: 480px){}
+
+@media only screen and (min-width: 481px){}
+
+@media only screen and (min-width: 1240px){
+    header{
+        position: relative;
+        top: 50px;
+        background: linear-gradient(to bottom, #171B5A,#FCE77C, #FAC06B);
+        padding: 40px 0px 40px 0px;
+    }
+        header p{
+            text-align: center;
+            padding-bottom: 10px;
+            font-weight: bolder;
+            font-size: 25px;
+            color: #4D0606;
+        }
+   .logo{
+        position: relative;
+        left: 40%;
+        width: 250px;
+        height: 250px;
+        z-index: 2;
+    }
+    .login-form{
+        position: absolute;
+        top: 55%;
+        background-color: rgb(237, 234, 234);
+        width: 100vw;
+        padding: 65px 0px 40px 0px;
+    }
+        .login-form *{
+            display: block;
+            padding: 0px 0px 10px 0px;
+            margin: 15px 0px 0px 520px;
+            border: solid rgb(46, 46, 46) 1px;
+            border-radius: 20px;
+            width: 250px;
+        
+        } 
+        #login-btn{
+            background-color: #171b5a;
+            color: white;
+        }
+    .container{
+        position: absolute;
+        z-index: 25;
+        bottom: 20%;
+        left: 25%;
+        color: red;
+        font-size: 15px;
+        height: 40px;
+        width: 200px;
+    }
+}
